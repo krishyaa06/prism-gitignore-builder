@@ -19,7 +19,7 @@
   <img src="assets/screenshots/desktop.png" width="90%" alt="Prism Gitignore Builder screenshot" />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" alt="" />
 
 ## ⚡ Overview
 
@@ -65,7 +65,7 @@ npx serve .
 
 ## 📁 Project Structure
 
-```
+```text
 prism-gitignore-builder/
 ├── assets/
 │   ├── logo.png
@@ -81,6 +81,7 @@ prism-gitignore-builder/
 │   └── core.test.js
 ├── .gitignore
 ├── LICENSE
+├── README.md
 ├── index.html
 └── package.json
 ```
@@ -108,13 +109,13 @@ Prism Gitignore Builder is one of the open-source tools built by [Prism Protocol
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/krishyaa06"><img src="https://github.com/krishyaa06.png" width="90" style="border-radius:50%" /><br><b>Soumya Bhandare</b></a><br>
+      <a href="https://github.com/krishyaa06"><img src="https://github.com/krishyaa06.png" width="90" style="border-radius:50%" alt="Soumya Bhandare" /><br><b>Soumya Bhandare</b></a><br>
       <sub>Founder @ Prism Protocol</sub>
     </td>
     <td>
-      <a href="https://dc.gg/prismprotocol"><img src="https://img.shields.io/badge/Discord-Prism%20Protocol-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a><br>
-      <a href="https://instagram.com/prism_protocol_"><img src="https://img.shields.io/badge/Instagram-@prism__protocol__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a><br>
-      <a href="https://x.com/krishyaa06"><img src="https://img.shields.io/badge/X-@krishyaa06-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+      <a href="https://dc.gg/prismprotocol"><img src="https://img.shields.io/badge/Discord-Prism%20Protocol-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><br>
+      <a href="https://instagram.com/prism_protocol_"><img src="https://img.shields.io/badge/Instagram-@prism__protocol__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a><br>
+      <a href="https://x.com/krishyaa06"><img src="https://img.shields.io/badge/X-@krishyaa06-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
     </td>
   </tr>
 </table>
@@ -128,4 +129,4 @@ Released under the [MIT License](LICENSE).
   <sub>"Build. Create. Compete." · Made with ⚡ by Prism Protocol</sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:FF6B8A,100:07060f&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:FF6B8A,100:07060f&height=110&section=footer" width="100%" alt="" />
