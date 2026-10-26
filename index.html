@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prism Gitignore Builder · Prism Protocol</title>
+  <meta name="description" content="Build a de-duplicated .gitignore from 31 templates and test whether any path will be ignored." />
+  <meta name="theme-color" content="#07080f" />
+  <meta property="og:title" content="Prism Gitignore Builder · Prism Protocol" />
+  <meta property="og:description" content="Build a de-duplicated .gitignore from 31 templates and test whether any path will be ignored." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/prism.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <style>:root{--accent:#FF6B8A;--accent-2:#6C63FF}</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="mark">◇</span><b>PRISM</b><span>Gitignore Builder</span></a>
+    <nav>
+      <a class="btn small" href="https://github.com/krishyaa06/prism-gitignore-builder" target="_blank" rel="noreferrer">★ GitHub</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">🙈 Dev Tools</p>
+      <h1>The right .gitignore, <em>in seconds.</em></h1>
+      <p class="lead">Pick your languages, frameworks, OS and editors. Get a clean, de-duplicated .gitignore and test any path against the rules.</p>
+    </section>
+    <section class="grid gi">
+      <div class="card">
+        <div class="card-title"><h2>Pick your stack</h2><input id="search" type="search" class="w-search" placeholder="Search templates…" aria-label="Search templates" /></div>
+        <div id="groups"></div>
+        <label class="field custom">Custom rules<textarea id="custom" spellcheck="false" placeholder="one pattern per line, e.g. uploads/"></textarea></label>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <div class="card-title"><h2>.gitignore</h2><div class="row"><label class="check"><input type="checkbox" id="comments" checked /> Comments</label><button class="btn small" id="copy">Copy</button><button class="btn small primary" id="dl">Download</button></div></div>
+          <div class="row sel" id="sel"></div>
+          <pre class="out gi-out" id="out"></pre>
+          <p class="muted small" id="count"></p>
+        </div>
+        <div class="card">
+          <div class="card-title"><h2>Will this file be ignored?</h2></div>
+          <input id="path" class="code" placeholder="e.g. src/.env.local or node_modules/react/index.js" aria-label="Path to test" />
+          <div id="verdict" class="verdict"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="foot">
+    <span>◇ Prism Gitignore Builder · Part of <a href="https://dc.gg/prismprotocol" target="_blank" rel="noreferrer">Prism Protocol</a></span>
+    <span><a href="https://github.com/krishyaa06/prism-gitignore-builder" target="_blank" rel="noreferrer">Source</a> · MIT License · Runs 100% in your browser</span>
+  </footer>
+  <script src="js/prism.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

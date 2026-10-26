@@ -1,0 +1,20 @@
+    <section class="grid gi">
+      <div class="card">
+        <div class="card-title"><h2>Pick your stack</h2><input id="search" type="search" class="w-search" placeholder="Search templates…" aria-label="Search templates" /></div>
+        <div id="groups"></div>
+        <label class="field custom">Custom rules<textarea id="custom" spellcheck="false" placeholder="one pattern per line, e.g. uploads/"></textarea></label>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <div class="card-title"><h2>.gitignore</h2><div class="row"><label class="check"><input type="checkbox" id="comments" checked /> Comments</label><button class="btn small" id="copy">Copy</button><button class="btn small primary" id="dl">Download</button></div></div>
+          <div class="row sel" id="sel"></div>
+          <pre class="out gi-out" id="out"></pre>
+          <p class="muted small" id="count"></p>
+        </div>
+        <div class="card">
+          <div class="card-title"><h2>Will this file be ignored?</h2></div>
+          <input id="path" class="code" placeholder="e.g. src/.env.local or node_modules/react/index.js" aria-label="Path to test" />
+          <div id="verdict" class="verdict"></div>
+        </div>
+      </div>
+    </section>

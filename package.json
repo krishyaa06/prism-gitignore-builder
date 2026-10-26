@@ -1,0 +1,28 @@
+{
+  "name": "prism-gitignore-builder",
+  "version": "1.0.0",
+  "description": "Build a de-duplicated .gitignore from 31 templates and test whether any path will be ignored.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "gitignore",
+    "gitignore-generator",
+    "git",
+    "developer-tools",
+    "productivity",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-gitignore-builder.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-gitignore-builder/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
